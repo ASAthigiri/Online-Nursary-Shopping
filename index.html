@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ANP Shopping</title>
+  <link rel="icon" type="image/x-icon" href="image/logo 2.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p.big {
+      font-size: 50px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .wel {
+      background-color: #DBF9FC;
+    }
+
+    .topnav img {
+      padding: 14px 16px;
+      align="left"
+    }
+
+    .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+
+    .topnav a:hover {
+      background-color: #EAECEE;
+      color: green;
+      border-radius: 15px 15px 15px 15px;
+    }
+
+    .topnav a.active {
+      background-color: green;
+
+      color: black;
+    }
+
+    * {
+      font-family: 'Cambo', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+    .icon-bar {
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+    }
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .google {
+      background: red;
+      color=white;
+    }
+    .Whatsapp {
+      background: green;
+      color: white;
+    }
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 50%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;  
+      margin-top: 6px;   
+      margin-bottom: 16px;
+      resize: vertical
+    }
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <div class="topnav">
+    <a class="active" href="#home"><b>ANP Shop</b></a> &ensp;
+    <a href="#home"><b>HOME</b></a>
+    <a href="#news"><b>PRODUCTS</b></a>
+    <a href="#contact"><b>CONTACT</b></a>
+    <a href="#about"><b>ABOUT</b></a>
+  </div>
+  <hr>
+  <img src="image/1.jpg" align="center" height="400" width="100%">
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    <a href="#" class="Whatsapp"><i class="fa fa-whatsapp "></i></a>
+  </div>
+  <div class="bg-text">
+    <h1 style="font-size:50px">All Nursary Product</h1>
+  </div>
+  <div class="wel" align="center">
+    <br>
+    <h1>Welcome <h3> This website helps to buy all types of nursery plants, pots, and various seeds for the plants.</h3>
+    </h1>
+    <br>
+  </div>
+  <br>
+  <hr>
+  <div style="padding-left:16px" align="center">
+    <h2>INDOOR PLANTS</h2>
+    <p>You can keep this plants in both pots & ground </p>
+  </div>
+  <hr>
+  <br>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="image/p2.JPG" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>nithya malli</h2>
+          <p class="title"><s>Original Price: Rs. 390</s></p>
+          <p>Price: Rs. 210</p>
+
+          <p><button class="button">Buy Now</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="image/p1.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Pavala malli</h2>
+            <p class="title"><s>Original Price: Rs. 390</s></p>
+            <p>Price: Rs. 210</p>
+
+            <p><button class="button">Buy Now</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image/p3.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Red Rose</h2>
+              <p class="title"><s>Original Price: Rs. 390</s></p>
+              <p>Price: Rs. 210</p>
+
+              <p><button class="button">Buy Now</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="image/p4.jpg" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2>White Rose</h2>
+                <p class="title"><s>Original Price: Rs. 390</s></p>
+                <p>Price: Rs. 210</p>
+
+                <p><button class="button">Buy Now</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="image/p5.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Yellow Rose</h2>
+                  <p class="title"><s>Original Price: Rs. 390</s></p>
+                  <p>Price: Rs. 210</p>
+
+                  <p><button class="button">Buy Now</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="image/p6.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Gundu malli</h2>
+                  <p class="title"><s>Original Price: Rs. 490</s></p>
+                  <p>Price: Rs. 300</p>
+
+                  <p><button class="button">Buy Now</button></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="image/p7.png" alt="Jane" style="width:100%">
+                  <div class="container">
+                    <h2>Samanthi plant</h2>
+                    <p class="title"><s>Original Price: Rs. 390</s></p>
+                    <p>Price: Rs. 210</p>
+
+                    <p><button class="button">Buy Now</button></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="image/p9.jpg" alt="Jane" style="width:100%">
+                    <div class="container">
+                      <h2>Hibiscus plant</h2>
+                      <p class="title"><s>Original Price: Rs. 390</s></p>
+                      <p>Price: Rs. 210</p>
+
+                      <p><button class="button">Buy Now</button></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <img src="image/p8.jpg" alt="Jane" style="width:100%">
+                      <div class="container">
+                        <h2>Money plant</h2>
+                        <p class="title"><s>Original Price: Rs. 390</s></p>
+                        <p>Price: Rs. 210</p>
+
+                        <p><button class="button">Buy Now</button></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <img src="image/p10.jpg" alt="Jane" style="width:100%">
+                        <div class="container">
+                          <h2> Paneer rose</h2>
+                          <p class="title"><s>Original Price: Rs. 390</s></p>
+                          <p>Price: Rs. 210</p>
+                          <p><button class="button">Buy Now</button></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <hr>
+                  <div style="padding-left:16px" align="center">
+                    <h2>OUTDOOR PLANTS</h2>
+                    <p>You can keep this plant only in the ground because it will grow larger. </p>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="column">
+                      <div class="card">
+                        <img src="image/pp1.jpg" alt="Jane" style="width:100%">
+                        <div class="container">
+                          <h2>Neem plant</h2>
+                          <p class="title"><s>Original Price: Rs. 390</s></p>
+                          <p>Price: Rs. 210</p>
+
+                          <p><button class="button">Buy Now</button></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="column">
+                        <div class="card">
+                          <img src="image/pp7.jpg" alt="Jane" style="width:100%">
+                          <div class="container">
+                            <h2>aalamaram Plant</h2>
+                            <p class="title"><s>Original Price: Rs. 390</s></p>
+                            <p>Price: Rs. 210</p>
+
+                            <p><button class="button">Buy Now</button></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="column">
+                          <div class="card">
+                            <img src="image/pp3.jpg" alt="Jane" style="width:100%">
+                            <div class="container">
+                              <h2>Murungai plant</h2>
+                              <p class="title"><s>Original Price: Rs. 390</s></p>
+                              <p>Price: Rs. 210</p>
+
+                              <p><button class="button">Buy Now</button></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="column">
+                            <div class="card">
+                              <img src="image/pp4.jpg" alt="Jane" style="width:100%">
+                              <div class="container">
+                                <h2>Mangotree plant</h2>
+                                <p class="title"><s>Original Price: Rs. 390</s></p>
+                                <p>Price: Rs. 210</p>
+
+                                <p><button class="button">Buy Now</button></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="column">
+                              <div class="card">
+                                <img src="image/pp5.png" alt="Jane" style="width:100%">
+                                <div class="container">
+                                  <h2>vengai plant</h2>
+                                  <p class="title"><s>Original Price: Rs. 390</s></p>
+                                  <p>Price: Rs. 210</p>
+
+                                  <p><button class="button">Buy Now</button></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="column">
+                              <div class="card">
+                                <img src="image/pp8.png" alt="Jane" style="width:100%">
+                                <div class="container">
+                                  <h2>Bamboo plant</h2>
+                                  <p class="title"><s>Original Price: Rs. 490</s></p>
+                                  <p>Price: Rs. 300</p>
+
+                                  <p><button class="button">Buy Now</button></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="column">
+                                <div class="card">
+                                  <img src="image/pp9.png" alt="Jane" style="width:100%">
+                                  <div class="container">
+                                    <h2>coconuttree plant</h2>
+                                    <p class="title"><s>Original Price: Rs. 390</s></p>
+                                    <p>Price: Rs. 210</p>
+
+                                    <p><button class="button">Buy Now</button></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="column">
+                                  <div class="card">
+                                    <img src="image/pp10.jpg" alt="Jane" style="width:100%">
+                                    <div class="container">
+                                      <h2>plamtree plant</h2>
+                                      <p class="title"><s>Original Price: Rs. 390</s></p>
+                                      <p>Price: Rs. 210</p>
+
+                                      <p><button class="button">Buy Now</button></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="column">
+                                    <div class="card">
+                                      <img src="image/pp6.jpg" alt="Jane" style="width:100%">
+                                      <div class="container">
+                                        <h2>tamarind plant</h2>
+                                        <p class="title"><s>Original Price: Rs. 390</s></p>
+                                        <p>Price: Rs. 210</p>
+
+                                        <p><button class="button">Buy Now</button></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pp2.png" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2> Arasamaram plant</h2>
+                                          <p class="title"><s>Original Price: Rs. 390</s></p>
+                                          <p>Price: Rs. 210</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <hr>
+                                  <div style="padding-left:16px" align="center">
+                                    <h2>POTS</h2>
+                                    <p>you can also buy the various pots </p>
+                                  </div>
+                                  <hr>
+                                  <br>
+                                  <div class="row">
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pot1.jpg" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2>plastic pot</h2>
+                                          <p class="title"><s>Original Price: Rs. 130</s></p>
+                                          <p>Price: Rs. 85</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pot2.jpg" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2>Steel pot</h2>
+                                          <p class="title"><s>Original Price: Rs. 490</s></p>
+                                          <p>Price: Rs. 299</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pot3.jpg" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2>ceramic pot</h2>
+                                          <p class="title"><s>Original Price: Rs. 226</s></p>
+                                          <p>Price: Rs. 190</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pot4.png" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2>pot with hanger</h2>
+                                          <p class="title"><s>Original Price: Rs. 390</s></p>
+                                          <p>Price: Rs. 210</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="column">
+                                      <div class="card">
+                                        <img src="image/pot6.jpg" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                          <h2>Clay pot</h2>
+                                          <p class="title"><s>Original Price: Rs. 190</s></p>
+                                          <p>Price: Rs. 86</p>
+
+                                          <p><button class="button">Buy Now</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <hr>
+                                  <div>
+                                    <h2 align="center">Contact us</h2>
+                                  </div>
+                                  <hr>
+                                  <div class="container" align="center">
+                                    <form action="action_page.php">
+                                      <label for="fname">First Name</label>
+                                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                      <br>
+                                      <label for="lname">Last Name</label>
+                                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                      <br>
+                                      <label for="country">Country</label>
+                                      <select id="country" name="country">
+                                        <option value="australia">Australia</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="usa">USA</option>
+                                      </select>
+                                      <br>
+                                      <label for="subject">Subject</label>
+                                      <textarea id="subject" name="subject" placeholder="Write something.."
+                                        style="height:200px"></textarea>
+                                      <br><br><br>
+                                      <input type="submit" value="Submit">
+                                    </form>
+                                  </div>
+                                  <script src="script.js"></script>
+                                  <script src="https://replit.com/public/js/replit-badge.js" theme="blue"
+                                    defer></script>
+</body>
+</html>
